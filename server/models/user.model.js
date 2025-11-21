@@ -1,14 +1,15 @@
+// server/models/user.model.js
 import mongoose from "mongoose";
 import bcrypt from "bcrypt";
 
 const userSchema = new mongoose.Schema(
   {
-    name:     { type: String, required: true },
-    email:    { type: String, required: true, unique: true, index: true },
+    name: { type: String, required: true },
+    email: { type: String, required: true, unique: true, index: true },
     password: { type: String, required: true },
-    created:  { type: Date, default: Date.now },
-    updated:  { type: Date, default: Date.now }
-  }
+    role: { type: String, enum: ["user", "admin"], default: "user" },
+  },
+  { timestamps: true }
 );
 
 // Hash password when it’s new/modified
@@ -18,7 +19,7 @@ userSchema.pre("save", async function (next) {
   next();
 });
 
-// Helper to compare passwords
+// Compare passwords
 userSchema.methods.comparePassword = function (plain) {
   return bcrypt.compare(plain, this.password);
 };

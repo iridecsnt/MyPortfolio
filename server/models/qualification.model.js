@@ -6,7 +6,7 @@ const qualificationSchema = new mongoose.Schema(
     firstname:   { type: String, required: true },
     lastname:    { type: String, required: true },
     email:       { type: String, required: true },
-    completion:  { type: Date,   required: true },
+    completion:  { type: String},
     description: { type: String, required: true }
   },
   { timestamps: true }
