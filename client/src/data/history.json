@@ -1,0 +1,29 @@
+[
+  {
+    "role": "UX Design Certificate",
+    "organisation": "Google",
+    "startDate": "Sept, 2024",
+    "endDate": "Present",
+    "experiences": ["Developing personas, user stories, and user journey maps", "Creating wireframes and prototypes"],
+    "imageSrc": "history/google.png"
+  },
+  {
+    "role": "Digital Marketing & E-commerce",
+    "organisation": "Google",
+    "startDate": "Aug, 2022",
+    "endDate": "Sept, 2023",
+    "experiences": ["Social media content development", "Customer service"],
+    "imageSrc": "history/google.png"
+  },
+  {
+    "role": "Python Pro Bootcamp",
+    "organisation": "Udemy",
+    "startDate": "Apr, 2023",
+    "endDate": "Jun, 2024",
+    "experiences": [
+      "Built 100 unique projects over 100 days",
+      "Able to program in Python professionally"
+    ],
+    "imageSrc": "history/udemyLogo.png"
+  }
+]

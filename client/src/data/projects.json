@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Password Manager GUI App",
+    "imageSrc": "projects/project.png",
+    "description": "A password manager, which stores the data locally, and generate passwords.",
+    "skills": ["Python", "Java", "tkinter"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Stock News Monitoring",
+    "imageSrc": "projects/stockMarket.png",
+    "description": "A Python program that fetches stock prices for selected stocks, using APIs. Inspired by Bloomberg terminals.",
+    "skills": ["Python", "CSS", "Javascript"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Exercise Tracking Application",
+    "imageSrc": "projects/fitnessApp.png",
+    "description": "This is a project made to log your workout activity and integrate Google Sheets.",
+    "skills": ["Python", "Java", "Node"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  }
+]
